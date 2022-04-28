@@ -2,7 +2,7 @@
 
 ### Overview
 
-This tool performs several tests to determine whether the system is possibly vulnerable to [Nimbuspwn](https://www.microsoft.com/security/blog/2022/04/26/microsoft-finds-new-elevation-of-privilege-linux-vulnerability-nimbuspwn/), a vulnerability in the `networkd-dispatcher` daemon discovered by the Microsoft 365 Defender Research Team.
+This tool performs several tests to determine whether the system is possibly vulnerable to [Nimbuspwn](https://www.microsoft.com/security/blog/2022/04/26/microsoft-finds-new-elevation-of-privilege-linux-vulnerability-nimbuspwn/) (CVE-2022-29799 & CVE-2022-29800), a vulnerability in the `networkd-dispatcher` daemon discovered by the Microsoft 365 Defender Research Team.
 
 A system is deemed possibly vulnerable to exploitation if the following conditions are met:
 1. The vulnerable service `networkd-dispatcher` service is running.
